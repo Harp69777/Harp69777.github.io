@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web Decorada</title>
+    <style>
+        /* Definición de colores y tipografía */
+        :root {
+            --color-principal: #4CAF50;  /* Verde principal */
+            --color-secundario: #FF5722; /* Naranja */
+            --color-fondo: #f4f4f9;      /* Fondo suave */
+            --color-texto: #333333;      /* Color de texto */
+            --color-titulo: #0D47A1;     /* Azul oscuro para títulos */
+            --color-boton: #FF9800;      /* Color de los botones */
+            --color-boton-hover: #E65100;/* Color de los botones al pasar el ratón */
+            --color-pie: #212121;        /* Pie de página oscuro */
+            --color-menu: #333333;       /* Menú oscuro */
+        }
+
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--color-fondo);
+            color: var(--color-texto);
+        }
+
+        /* Cabecera */
+        header {
+            background-color: var(--color-principal);
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+    
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+
+        nav a:hover {
+            color: var(--color-secundario);
+        }
+
+        /* Contenido principal */
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            padding: 0 15px;
+        }
+
+        /* Sección de bienvenida */
+        .bienvenida {
+            flex: 2;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .bienvenida h2 {
+            color: var(--color-titulo);
+        }
+
+        .bienvenida p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .bienvenida button {
+            background-color: var(--color-boton);
+            border: none;
+            padding: 12px 25px;
+            color: white;
+            font-size: 1.1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .bienvenida button:hover {
+            background-color: var(--color-boton-hover);
+        }
+
+        /* Sección de imágenes */
+        .imagenes {
+            flex: 1;
+            display: grid;
+            gap: 15px;
+        }
+
+        .imagenes img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: var(--color-pie);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Cabecera -->
+    <header>
+        <h1>Mi Página Web</h1>
+        <h3>Por: Daniel Santiago Hernández Tlapale</h3>
+    </header>
+
+   
+
+    <!-- Contenido principal -->
+    <div class="container">
+        <!-- Sección de bienvenida -->
+        <div class="bienvenida">
+            <h2>¡Hola y Bienvenidos!</h2>
+            <p>En esta página hablarae acerca de que es una derivada, una derivada es un concepto fundamental en cálculo que describe la tasa de cambio de una función con respecto a una de sus variables. En otras palabras, la derivada mide cómo cambia el valor de una función cuando su variable independiente (usualmente representada por 
+               x) cambia un poco.</p>
+            <p>Si consideramos una función 
+𝑓
+(
+𝑥
+)
+f(x), la derivada de 
+𝑓
+(
+𝑥
+)
+f(x) en un punto específico 
+𝑥
+=
+𝑎
+x=a, denotada como 
+𝑓
+′
+(
+𝑎
+)
+f 
+′
+ (a) o 
+𝑑
+𝑑
+𝑥
+𝑓
+(
+𝑥
+)
+dx
+d
+​
+ f(x), se interpreta como la pendiente de la tangente a la gráfica de la función en ese punto.
+
+Pendiente de la tangente: Si tienes una curva que representa la función 
+𝑓
+(
+𝑥
+)
+f(x), la derivada te dice qué tan inclinada es la línea que toca la curva en un solo punto (llamada línea tangente).
+Si la derivada es positiva en un punto, la función está creciendo en ese punto (la tangente tiene pendiente positiva).
+Si la derivada es negativa, la función está disminuyendo (la tangente tiene pendiente negativa).
+Si la derivada es cero, la función tiene un punto plano (la tangente es horizontal)</p>
+    
+     <h2> Aplicación de las derivadas</h2>    
+    <p>Las derivadas tienen muchas aplicaciones en ciencia, economía, ingeniería y más. Algunas de las más comunes son:</p>
+    <h3>Movimiento</h3>
+    <p>En física, la derivada de la posición respecto al tiempo es la velocidad, y la derivada de la velocidad es la aceleración.</p>
+    <h3>Optimización</h3>
+    <p>Las derivadas se usan para encontrar los máximos y mínimos de una función, lo que es útil en la economía, la ingeniería y otros campos para maximizar ganancias o minimizar costos.</p>
+    <h3>Crecimiento y decrecimiento</h3>
+    <p>Las derivadas se utilizan para determinar en qué intervalos una función está creciendo o decreciendo.</p>
+            <button>Descubre más</button>
+        </div>
+        <!-- Sección de imágenes -->
+       <div class="imagenes">
+           <img src="derivada.png" alt="Imagen 1" width="350" height="200">
+           <img src="derivada2.png" alt="Imagen 2" width="350" height="200">
+           <img src="isaac.jpg" alt="Imagen 3" width="350" height="200">
+       </div>
+
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Mi Página Web | Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
